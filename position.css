@@ -1,0 +1,34 @@
+.parent p:first-child {
+    background-color:chartreuse;
+}
+
+.parent p:nth-child(2){
+    background-color: hotpink;
+}
+.parent p:nth-child(3){
+    background-color: red;
+    position:fixed;
+    width:90%;
+    right:0;
+}
+
+    .parent p:nth-child(4){
+        background-color:blue;
+    }
+    .parent p:nth-child(5){
+        background-color: violet;
+    }
+    .parent p:nth-child(6){
+        background-color:blue;
+    }
+    .parent p:nth-child(7){
+        background-color:lightcoral;
+    }
+    .parent p:nth-child(8){
+        background-color:grey;
+    }
+
+.parent p:last-child {
+  background-color: greenyellow;  
+
+}
